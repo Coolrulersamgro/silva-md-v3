@@ -10,12 +10,12 @@ module.exports = {
     DEBUG_MODE: process.env.DEBUG_MODE === 'true',
     AUTO_READ: process.env.AUTO_READ !== 'false',
     AUTO_TYPING: process.env.AUTO_TYPING === 'true',
-    AUTO_REPLY: process.env.AUTO_REPLY === 'true',
+    AUTO_REPLY: process.env.AUTO_REPLY === 'false',
     
     // Status Handler Settings
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN === 'true',
-    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === 'true',
-    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY === 'true',
+    AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT === 'false',
+    AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY === 'false',
     AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || '✅ Status viewed by Silva MD',
     STATUS_Saver: process.env.STATUS_Saver || 'true',
     STATUS_REPLY: process.env.STATUS_REPLY === 'true',
